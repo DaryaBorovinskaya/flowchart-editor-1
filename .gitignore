@@ -10,8 +10,7 @@ dist/
 # Compiled Java class files
 *.class
 
-# JavaScript programs
-*.js
+
 
 # Compiled Python bytecode
 *.py[cod]
