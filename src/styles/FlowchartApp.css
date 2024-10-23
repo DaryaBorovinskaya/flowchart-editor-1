@@ -1,0 +1,244 @@
+#root{
+  font-family: "Manrope";
+  
+}
+
+body{
+  background-color: #ededed;
+  overflow-x: hidden;
+  
+}
+
+.wrapper-main-canvas{
+  overflow-y:auto;
+  overflow-x: hidden;
+  height: 600px;
+}
+
+
+.main-canvas{
+  width: 100vw;
+  /*background-color: rgb(220, 227, 225);*/
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+
+/*.chart-space-canvas{
+  overflow: auto;
+}*/
+
+
+.joint-paper {
+  border: 1px solid #a0a0a0;
+}
+
+.background-body {
+  /*position: fixed;*/
+  position: absolute;
+  box-sizing: border-box;
+
+  top:0;
+  left:0;
+  max-height: 100vh;
+  /*max-width: 100vw;*/
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.top-panel{
+  position:relative;
+  top:0;
+  padding-top: 2vh;
+  background-color: #ededed;
+
+  height: 20vh;
+
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.text-title{
+  font-size: 30px;
+  font-weight:900;
+  color: #1a6a7c;
+
+  width: fit-content;
+  vertical-align: bottom;
+  
+}
+
+.text-charts{
+  margin-right: 10vh;
+
+  font-size: 22px;
+  color: #1a6a7c;
+
+  text-align: right;
+}
+
+
+
+.main-panel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  /*height: 100vh;*/
+  /*height: 85vh;*/
+  background-color: #ffffff;
+}
+
+.information-space{
+
+  width: 20vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+
+  background-color: #ededed;
+}
+
+.button-task{
+  width: fit-content;
+  height: fit-content;
+  padding: 2vh;
+
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  font-family: "Manrope";
+  color: #1a6a7c;
+
+  background-color: #ffffff;
+  border-radius: 15px;
+  border-color: #1a6a7c;
+  border-style: solid;
+
+  filter: drop-shadow(5px 5px 2px #a4a7a7);
+
+  cursor: pointer;
+}
+
+
+.button-help{
+  width: fit-content;
+  height: fit-content;
+  background-color: #1a6a7c;
+  padding: 2vh;
+  text-align: center;
+  vertical-align: middle;
+
+  border-radius: 15px;
+  border-width: 5px;
+  border-color: #1a6a7c;
+  border-style: solid;
+
+  box-shadow: inset 0px 0px 10px #cacaca;
+
+  font-size: 20px;
+  font-family: "Manrope";
+  color: white;
+  cursor: pointer;
+}
+
+
+.play-space{
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 80vw;
+}
+
+/*.charts-space{
+  max-width: 30vw;
+  background-color: #ededed;
+}*/
+
+
+.lower-panel{
+  position:relative;
+  bottom: 0;
+  padding: 1vh;
+
+  height: 30vh;
+  background-color: #ededed;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*border-top: 1px solid #a0a0a0;*/
+}
+
+.button-ready{
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffffff;
+  margin-right: 2vw;
+  padding: 1vh;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 900;
+
+  border-radius: 15px;
+  border-width: 5px;
+  border-color: #1a6a7c;
+  border-style: solid;
+
+
+  font-size: 20px;
+  font-family: "Manrope";
+  color: #1a6a7c;
+
+  filter: drop-shadow(5px 5px 2px #a4a7a7);
+  cursor: pointer;
+}
+
+.button-send{
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffffff;
+  padding: 1vh;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 900;
+
+  border-radius: 15px;
+  border-width: 5px;
+  border-color: #1a6a7c;
+  border-style: solid;
+
+
+  font-size: 20px;
+  font-family: "Manrope";
+  color: #1a6a7c;
+
+  filter: drop-shadow(5px 5px 2px #a4a7a7);
+  cursor: pointer;
+}
+/*body{
+  margin: 0;
+}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.canvas{
+  width: 100%;
+  height: 100%;
+}
+
+.joint-paper{
+  border: 2px solid #389b28;
+}*/

@@ -1,0 +1,289 @@
+.modal-menu-wrap {
+  position: relative;
+}
+
+.modal-menu {
+  position: absolute;
+  top: 10vh;
+  right: 2vw;
+  width: 30vw;
+  height: 25vw;
+  padding: 15px;
+  /*overflow-y: scroll;*/
+  background-color: #ededed;
+
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #1a6a7c;
+  border-style: solid;
+
+  filter: drop-shadow(0 0 5px #a4a7a7);
+
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.modal-menu::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.modal-menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  font-size: 25px;
+  color: #1a6a7c;
+  font-family: "Manrope";
+}
+
+.button-close-svg {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.modal-menu-body {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  unicode-bidi: isolate;
+}
+
+.text {
+  margin: 1vh;
+  font-size: 22px;
+  font-family: "Manrope";
+  color: #1a6a7c;
+  text-align: left;
+
+  cursor: pointer;
+  background-color: #ffffff;
+  padding: 1vh;
+
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #1a6a7c;
+  border-style: solid;
+
+  filter: drop-shadow(5px 5px 2px #a4a7a7);
+}
+
+/*.text:visited{
+  background-color: #ffffff;
+}
+.text:focus{
+  background-color: #91c8d4;
+}*/
+
+
+
+.editor{
+  position: relative;
+  height: 20vh;
+  margin: 1vh;
+  padding: 1vh 2vh;
+
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #1a6a7c;
+  border-style: solid; 
+
+  background-color: #ffffff;
+  
+}
+
+.action-editor{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+
+}
+
+
+
+.arrows{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.input-data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.arrow-svg{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.arrow-svg:hover{
+  transform: scale(1.05);
+  transition-duration: 200ms;
+}
+
+
+.input-quantity{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+
+.text-quantity{
+  font-size: 20px;
+  font-family: "Manrope";
+  color: #1a6a7c;
+  vertical-align: middle;
+}
+
+
+/*.block1{
+  max-height: 30px;
+  overflow:scroll;
+  display: block;
+overflow: hidden;
+}
+
+.block2{
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+}*/
+
+
+.select-quantity{
+  position:relative;
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffffff;
+  padding: 1vh;
+  text-align: center;
+  vertical-align: middle;
+
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #1a6a7c;
+  border-style: solid;
+
+
+  font-size: 20px;
+  font-family: "Manrope";
+  color: #1a6a7c;
+
+  filter: drop-shadow(5px 5px 2px #a4a7a7);
+  cursor: pointer;
+
+  overflow-y:scroll;
+  vertical-align: middle;
+}
+
+.select-option{
+  text-align: left;
+  border-radius: 10px;
+}
+
+/*option:checked {
+  background-color: #91c8d4; 
+}*/
+
+
+.editor-input-data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Manrope";
+  color: #1a6a7c;
+
+  
+}
+
+
+.wrapper-button-add{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  padding: 1vh;
+  text-align: center;
+  vertical-align: middle;
+
+  border-radius: 15px;
+  border-width: 3px;
+  border-color: #1a6a7c;
+  border-style: solid;
+
+
+  font-size: 20px;
+  font-family: "Manrope";
+  color: #1a6a7c;
+
+  filter: drop-shadow(5px 5px 2px #a4a7a7);
+  cursor: pointer;
+}
+
+
+.editor-button-add{
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffffff;
+  padding: 1vh;
+  text-align: center;
+  vertical-align: middle;
+
+  border-radius: 15px;
+  border-width: 3px;
+  border-color: #1a6a7c;
+  border-style: solid;
+
+
+  font-size: 20px;
+  font-family: "Manrope";
+  color: #1a6a7c;
+
+  filter: drop-shadow(5px 5px 2px #a4a7a7);
+  cursor: pointer;
+}
+
+
+
+
+.condition-editor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cycle-WHILE-editor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cycle-FOR-editor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
